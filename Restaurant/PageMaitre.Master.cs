@@ -16,7 +16,8 @@ namespace Restaurant
 		protected void Page_Load(object sender, EventArgs e)
 
 		{
-
-		}
+            this.Session[Site1.SESSION_IDUTILISATEURCONNECTE] = 4;
+            this.Session[Site1.SESSION_IDRESTO] = 1;
+        }
 	}
 }
